@@ -11,12 +11,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Webdevcraft\\Liform\\": "src/Limenius/Liform"
+      "Limenius\\Liform\\": "src/Limenius/Liform"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Webdevcraft\\Liform\\Tests\\": "tests/Limenius/Liform/Tests"
+      "Limenius\\Liform\\Tests\\": "tests/Limenius/Liform/Tests"
     }
   },
   "require": {
