@@ -1,5 +1,5 @@
 {
-  "name": "limenius/liform",
+  "name": "webdevcraft/liform",
   "description": "Library to transform Symfony Forms into Json Schema",
   "type": "library",
   "license": "MIT",
@@ -11,16 +11,16 @@
   ],
   "autoload": {
     "psr-4": {
-      "Limenius\\Liform\\": "src/Limenius/Liform"
+      "Webdevcraft\\Liform\\": "src/Limenius/Liform"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Limenius\\Liform\\Tests\\": "tests/Limenius/Liform/Tests"
+      "Webdevcraft\\Liform\\Tests\\": "tests/Limenius/Liform/Tests"
     }
   },
   "require": {
-    "php": "^7.2.5",
+    "php": ">=7.2.5",
     "symfony/form": "^4.4|^5.0",
     "symfony/translation": "^4.4|^5.0",
     "symfony/serializer": "^4.4|^5.0",
